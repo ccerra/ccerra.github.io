@@ -1,0 +1,38 @@
+/* DO NOT EDIT BELOW */
+hr {
+    margin-bottom: 100vh;
+}
+p a {
+    display: inline-block;
+    padding: 10px;
+}
+/* DO NOT EDIT ABOVE */
+/* Student Work Area Below */
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+}
+p{
+    text-align: center;
+    
+}
+a{
+    background-color: #e1a177;
+    color: black;
+    text-decoration: none;
+}
+h2{
+    font-size: 30px;
+    font-style: italic;
+}
+#s1{
+    color: #e1a177;
+}
+#s2{
+    color: #54ee61;
+}
+#s3{
+    color: #7787e1;
+}

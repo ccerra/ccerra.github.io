@@ -1,0 +1,26 @@
+#p1 {
+    color: red;
+    background: black;
+}
+
+#p2 {
+    background: black;
+    color: blue;
+}
+
+p {
+    color: rgb(212, 51, 226);
+}
+
+span {
+    color: turquoise;
+}
+
+#sp1 {
+    background-color: rgb(124, 38, 141);
+}
+
+#sp2 {
+    color: #e1a177;
+    font-size: 24px;
+}

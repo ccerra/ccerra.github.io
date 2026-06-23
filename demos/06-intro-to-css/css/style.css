@@ -1,0 +1,26 @@
+ #p1{
+    color: rgb(21, 167, 211);
+    background-color: #444;
+ }
+ #p2{
+    color: rgb(233, 142, 228);
+    background-color: #111;
+ }
+ span{
+    color:#111
+ }
+ #sp1 {
+    background-color: aquamarine;
+ }
+ #sp2 {
+    background-color: rgb(211, 135, 255);
+    font-size: 24px;
+ }
+ #sp3 {
+    background-color: rgb(245, 119, 161);
+ }
+ #sp4 {
+    background-color: rgb(255, 177, 113);
+    font-style: italic;
+    letter-spacing: 30px;
+ }
