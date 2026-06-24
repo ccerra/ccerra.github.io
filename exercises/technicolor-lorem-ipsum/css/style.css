@@ -1,0 +1,49 @@
+#paragraph-1 {
+    background-color: #f5c4c4;
+    color: #b22222;
+    padding: 4px;
+    width: 700px;
+}
+
+#paragraph-2 {
+    background-color: #c8ffc8;
+    color: #228b22;
+    padding: 4px;
+    width: 700px;
+}
+
+#paragraph-3 {
+    background-color: #cfe8f3;
+    color: #1d3ea6;
+    padding: 4px;
+    width: 700px;
+}
+
+#yellow-highlight {
+    background-color: yellow;
+}
+
+#green-highlight {
+    background-color: limegreen;
+    color: white;
+}
+
+#pink-highlight {
+    background-color: magenta;
+    color: black;
+}
+
+#purple-highlight {
+    background-color: purple;
+    color: yellow;
+}
+
+#red-highlight {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+#lime-highlight {
+    background-color: #c8ff5a;
+}
