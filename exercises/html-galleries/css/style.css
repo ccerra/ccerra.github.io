@@ -1,0 +1,15 @@
+.buttons {
+    text-align: center;
+    margin: 24px;
+}
+body {
+    background-color: #505050;
+    text-align: center;
+}
+#h2 {
+    color: rgb(243, 201, 87);
+    padding: 24px;
+    text-align: center;
+    background-color: #292929;
+    font-family: 'Times New Roman', Times, serif;
+}
