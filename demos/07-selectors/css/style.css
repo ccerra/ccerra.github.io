@@ -1,0 +1,21 @@
+#p1 {
+    font-size: 30px;
+}
+p {
+    font-size: 20px;
+}
+.shadow {
+    box-shadow: 2px -2px 4px #1115;
+    background-color: #a4c1ff;
+    padding: 24px;
+    margin: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.border {
+    margin: 24px;
+    padding: 24px;
+    border: 2px solid tomato;
+}
+div {
+    display: fle;
+}
