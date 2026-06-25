@@ -1,0 +1,56 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+.post-it-a,
+.post-it-b,
+.post-it-c {
+    display: inline-block;
+    width: 250px;
+    min-height: 250px;
+    font-family: cursive;
+    margin: 24px;
+    padding: 30px;
+    vertical-align: top;
+    box-shadow: 0 5px 8px #492303;
+}
+
+.post-it-a {
+    background-color: lightpink;
+    text-align: center;
+}
+
+.post-it-b {
+    background-color: lightskyblue;
+}
+
+.post-it-c {
+    background-color: #ffde82;
+    text-align: center;
+}
+
+.post-it-c img {
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    display: block;
+    margin: 15px auto;
+}
+
+.post-it-d {
+    text-align: right;
+}
+.post-it-d img {
+    width: 250px;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+#h1 {
+    text-decoration: underline;
+    text-align: center;
+}
