@@ -8,7 +8,10 @@
 */
 .post-it-a,
 .post-it-b,
-.post-it-c {
+.post-it-c,
+.post-it-d,
+.post-it-e,
+.post-it-f {
     display: inline-block;
     width: 250px;
     min-height: 250px;
@@ -42,12 +45,22 @@
 }
 
 .post-it-d {
-    text-align: right;
+    background-color: #d7c5f5;
+    text-align: center;
 }
+
 .post-it-d img {
-    width: 250px;
-    display: inline-block;
-    margin-top: 50px;
+    width: 180px;
+    display: block;
+    margin: 20px auto;
+}
+.post-it-e {
+    background-color: #fdd0db;
+}
+
+.post-it-f {
+    background-color: #b8ffde;
+    text-align: center;
 }
 
 #h1 {
