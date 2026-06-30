@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sidebar {
+    background-color: #333333;
+    color: white;
+    width: 500px;
+    min-height: 100vh;
+    padding: 24px;
+}
+
+#sidebar h4 {
+    font-size: 24px;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#sidebar ul {
+    padding-left: 20px;
+}
+
+#sidebar li {
+    margin-bottom: 10px;
+}
+
+#sidebar .chapter {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#sidebar .edit {
+    color: orange;
+    font-style: italic;
+}
+
+#sidebar .chapter.edit {
+    color: red;
+}
+
+#sidebar + div {
+    flex: 1;
+    padding: 40px;
+}
+
+#sidebar + div h1 {
+    margin-bottom: 20px;
+}
+
+#sidebar + div p {
+    margin-bottom: 18px;
+    line-height: 1.6;
+}
