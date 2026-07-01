@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/fairy background.png");
+    background-repeat: repeat;
+    background-size: 500px;
+    background-color: #eef3fa;
+    font-family: Georgia, serif;
+    padding: 40px;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, .15);
+}
+
+.category {
+    text-align: center;
+    color: #c79d45;
+    letter-spacing: 4px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #5b6f9e;
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.author {
+    text-align: center;
+    color: #777;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.banner {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 45px;
+}
+
+.post {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.article-image {
+    width: 350px;
+    border-radius: 15px;
+    margin-right: 35px;
+}
+
+.text {
+    flex: 1;
+}
+
+h2 {
+    color: #5b6f9e;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #444;
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 15px;
+}
