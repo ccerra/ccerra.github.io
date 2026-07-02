@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@645&family=Rubik+Dirt&family=Yanone+Kaffeesatz:wght@265&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    color: rgb(109, 4, 65);
+}
+h1,
+h2,
+h3,
+h6 {
+    font-family: "DynaPuff", system-ui;
+    color: rgb(219, 96, 143);
+}

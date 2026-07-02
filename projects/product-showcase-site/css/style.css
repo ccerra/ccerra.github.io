@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Raleway:wght@100..900&display=swap');
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+}
+
+/*------------------ HERO ----------------*/
+
+.s1{
+
+    background-image:url("../images/background 1.png");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    height:100vh;
+
+    text-align:center;
+
+    padding-top:200px;
+}
+
+.centered-column{
+
+    width:70%;
+    max-width:700px;
+    margin:auto;
+
+}
+
+.s1 h1{
+
+    font-family:"Cinzel Decorative", serif;
+
+    font-size:60px;
+
+    color:#3d0058;
+}
+
+.s1 p{
+
+    font-family:"Raleway", sans-serif;
+
+    font-size:24px;
+
+    color:#3d0058;
+
+    margin-bottom:40px;
+}
+
+.s1 img{
+
+    width:300px;
+}
+
+/*---------------- BOOK SECTIONS ----------------*/
+
+.s2,
+.s3,
+.s4,
+.s5,
+.s6{
+
+    text-align:center;
+
+    padding:80px 20px;
+}
+
+/* fondos */
+
+.s2{
+    background:#d8d3ff;
+}
+
+.s3{
+    background:#ffe0ea;
+}
+
+.s4{
+    background:#dff5e5;
+}
+
+.s5{
+    background:#fff1d8;
+}
+
+.s6{
+    background:#dcefff;
+}
+
+/* images */
+
+.s2 img,
+.s3 img,
+.s4 img,
+.s5 img,
+.s6 img{
+
+    width:400px;
+}
+
+/* tittles */
+
+.s2 h2,
+.s3 h2,
+.s4 h2,
+.s5 h2,
+.s6 h2{
+
+    font-family:"Cinzel Decorative", serif;
+
+    font-size:42px;
+
+    margin-top:30px;
+}
+
+/* descripcion */
+
+.s2 p,
+.s3 p,
+.s4 p,
+.s5 p,
+.s6 p{
+
+    font-family:"Raleway", sans-serif;
+
+    font-size:20px;
+
+    max-width:500px;
+
+    margin:20px auto;
+}
+
+/* buttons */
+
+.s2 a,
+.s3 a,
+.s4 a,
+.s5 a,
+.s6 a{
+
+    display:inline-block;
+
+    margin-top:15px;
+
+    text-decoration:none;
+
+    background:#5f2ca3;
+
+    color:white;
+
+    padding:14px 30px;
+
+    border-radius:30px;
+
+    font-family:"Raleway", sans-serif;
+
+    font-weight:bold;
+}
