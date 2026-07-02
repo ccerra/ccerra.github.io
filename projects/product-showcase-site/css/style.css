@@ -1,163 +1,217 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Raleway:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Raleway:wght@400;600;700&display=swap');
 
-*{
-    box-sizing:border-box;
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
-    margin:0;
+/* Body */
+
+body {
+    font-family: "Raleway", sans-serif;
 }
 
-/*------------------ HERO ----------------*/
+/* Layout */
 
-.s1{
-
-    background-image:url("../images/background 1.png");
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
-
-    height:100vh;
-
-    text-align:center;
-
-    padding-top:200px;
+.centered-column {
+    width: 70%;
+    max-width: 700px;
+    margin: auto;
 }
 
-.centered-column{
+/* Hero */
+.s1 {
+    background-image: url("../images/background 1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
-    width:70%;
-    max-width:700px;
-    margin:auto;
+    height: 100vh;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
 }
 
-.s1 h1{
-
-    font-family:"Cinzel Decorative", serif;
-
-    font-size:60px;
-
-    color:#3d0058;
+.s1 .centered-column {
+    width: 70%;
+    max-width: 700px;
+    margin: 80px auto 0;
 }
 
-.s1 p{
+.s1 h1 {
+    font-family: "Cinzel Decorative", serif;
+    font-size: 60px;
+    color: #3d0058;
 
-    font-family:"Raleway", sans-serif;
-
-    font-size:24px;
-
-    color:#3d0058;
-
-    margin-bottom:40px;
+    margin-bottom: 20px;
 }
 
-.s1 img{
+.s1 p {
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    color: #3d0058;
 
-    width:300px;
+    margin-bottom: 40px;
 }
-
-/*---------------- BOOK SECTIONS ----------------*/
+/* Book Sections */
 
 .s2,
 .s3,
 .s4,
 .s5,
-.s6{
-
-    text-align:center;
-
-    padding:80px 20px;
+.s6 {
+    text-align: center;
+    padding: 80px 20px;
 }
 
-/* fondos */
+/* Backgrounds */
 
-.s2{
-    background:#d8d3ff;
+.s2 {
+    background-color: #ffd3e2;
 }
 
-.s3{
-    background:#ffe0ea;
+.s3 {
+    background-color: #b4bedd;
 }
 
-.s4{
-    background:#dff5e5;
+.s4 {
+    background-color: #dfc48a;
 }
 
-.s5{
-    background:#fff1d8;
+.s5 {
+    background-color: #973d3d;
 }
 
-.s6{
-    background:#dcefff;
+.s6 {
+    background-color: #3a505a;
 }
 
-/* images */
+/* Images */
 
 .s2 img,
 .s3 img,
 .s4 img,
 .s5 img,
-.s6 img{
-
-    width:400px;
+.s6 img {
+    width: 400px;
 }
 
-/* tittles */
+/* Titles */
 
 .s2 h2,
 .s3 h2,
 .s4 h2,
 .s5 h2,
-.s6 h2{
-
-    font-family:"Cinzel Decorative", serif;
-
-    font-size:42px;
-
-    margin-top:30px;
+.s6 h2 {
+    font-family: "Cinzel Decorative", serif;
+    font-size: 42px;
+    margin-top: 30px;
 }
 
-/* descripcion */
+/* Paragraphs */
 
 .s2 p,
 .s3 p,
 .s4 p,
 .s5 p,
-.s6 p{
+.s6 p {
+    max-width: 500px;
+    margin: 20px auto;
 
-    font-family:"Raleway", sans-serif;
-
-    font-size:20px;
-
-    max-width:500px;
-
-    margin:20px auto;
+    font-size: 20px;
+    line-height: 1.6;
 }
 
-/* buttons */
+/* Section Colors */
 
-.s2 a,
-.s3 a,
-.s4 a,
-.s5 a,
-.s6 a{
+.s2 h2 {
+    color: #8c2b5b;
+}
 
-    display:inline-block;
+.s2 p {
+    color: #5f3f59;
+}
 
-    margin-top:15px;
+.s3 h2 {
+    color: #284a87;
+}
 
-    text-decoration:none;
+.s3 p {
+    color: #45516d;
+}
 
-    background:#5f2ca3;
+.s4 h2 {
+    color: #8d2332;
+}
 
-    color:white;
+.s4 p {
+    color: #5d4935;
+}
 
-    padding:14px 30px;
+.s5 h2 {
+    color: #ffe3a8;
+}
 
-    border-radius:30px;
+.s5 p {
+    color: #fff5dd;
+}
 
-    font-family:"Raleway", sans-serif;
+.s6 h2 {
+    color: #d7ebff;
+}
 
-    font-weight:bold;
+.s6 p {
+    color: #b7d3df;
+}
+
+/* Buttons */
+
+.btn {
+    display: inline-block;
+
+    margin-top: 15px;
+    padding: 14px 30px;
+
+    border-radius: 30px;
+
+    text-decoration: none;
+
+    color: white;
+
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+/* Button Colors */
+
+.hero-btn {
+    background-color: #5f2ca3;
+}
+
+.broken-heart-btn {
+    background-color: #d94b8a;
+}
+
+.caraval-btn {
+    background-color: #355c9b;
+}
+
+.heartless-btn {
+    background-color: #8d2332;
+}
+
+.alice-btn {
+    background-color: #f0a63a;
+}
+
+.quicksilver-btn {
+    background-color: #7aa3cf;
 }
