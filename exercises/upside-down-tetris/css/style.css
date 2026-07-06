@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f5;
+    font-family: sans-serif;
+}
+
+#container {
+    width: 500px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 0;
+    background-color: #d8f0cf;
+}
+
+.block {
+    display: inline-block;
+    width: 92px;
+    height: 92px;
+    margin: 4px;
+    border-radius: 6px;
+    border: 1px solid white;
+    box-shadow:
+        inset 6px 6px 10px rgba(255, 255, 255, 0.45),
+        inset -8px -8px 10px rgba(0, 0, 0, 0.12),
+        2px 2px 4px rgba(0, 0, 0, 0.12);
+}
+
+.pink {
+    background: linear-gradient(
+        135deg,
+        #fff4f8 0%,
+        #ffd9e9 22%,
+        #ffc2d9 22%,
+        #ffb3cf 78%,
+        #e896b5 78%,
+        #d67ca0 100%
+    );
+}
+
+.blue {
+    background: linear-gradient(
+        135deg,
+        #f6fcff 0%,
+        #e1f2ff 22%,
+        #cbe6ff 22%,
+        #b5dcff 78%,
+        #93c3eb 78%,
+        #73a7d2 100%
+    );
+}
+
+.green {
+    background: linear-gradient(
+        135deg,
+        #f5fff9 0%,
+        #ddf8e8 22%,
+        #c9efd9 22%,
+        #b5e7cb 78%,
+        #96d3b2 78%,
+        #79b796 100%
+    );
+}
+
+.yellow {
+    background: linear-gradient(
+        135deg,
+        #fffef5 0%,
+        #fff8da 22%,
+        #fff2c2 22%,
+        #ffe89f 78%,
+        #f3d475 78%,
+        #d5b95c 100%
+    );
+}
+
+.purple {
+    background: linear-gradient(
+        135deg,
+        #fdfaff 0%,
+        #f0e2ff 22%,
+        #e2c8ff 22%,
+        #d5b7ff 78%,
+        #bb98eb 78%,
+        #9e7dd0 100%
+    );
+}
