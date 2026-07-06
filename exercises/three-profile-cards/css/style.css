@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Quicksand:wght@300..700&family=Uncial+Antiqua&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: rgb(32, 32, 32);
+}
+
+h1 {
+    text-align: center;
+    color: #c49f26;
+    font-family: "Uncial Antiqua", system-ui;
+    font-size: 3rem;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6);
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.single-columns {
+    margin: 0px auto;
+    width: 90vw;
+    max-width: 1200px;
+}
+
+.card-container {
+     display: flex;
+    gap: 36px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.card {
+    border: 5px solid #7A610D;
+    padding: 36px;
+    flex: 1;
+    min-width: 200px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.4);
+}
+
+
+.card:nth-child(1) {
+    background-color: #1C2344;
+}
+
+.card:nth-child(2) {
+    background-color: #4A1616;
+}
+
+.card:nth-child(3) {
+    background-color: #184D49;
+}
+
+.card img {
+    height: 200px;
+    border-radius: 15px;
+    border: 4px solid #7A610D;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.4);
+}
+
+.card h2 {
+    color: #c49f26;
+     font-family: "Uncial Antiqua", system-ui;
+}
+
+.card p {
+    color: #e4d298;
+    font-family: "Quicksand", sans-serif;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #a58828;
+    color: black;
+    text-decoration: none;
+    font-family: "Castoro Titling", serif;
+    border-radius: 25px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+}
