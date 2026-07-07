@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@300;400;500;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7f7f7;
+    color: #111111;
+    font-family: "Montserrat", sans-serif;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+#wrapper {
+    width: 1100px;
+    margin: 50px auto;
+}
+
+#featured-dessert {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    border-top: 1px solid #222222;
+    border-bottom: 1px solid #222222;
+    padding: 40px 0;
+}
+
+.photo-box {
+    flex: 1;
+}
+
+.photo-box img {
+    height: 560px;
+    object-fit: cover;
+}
+
+.details-box {
+    flex: 1;
+}
+
+.details-box h5 {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+
+.details-box h1 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 60px;
+    line-height: 0.95;
+    margin-bottom: 30px;
+}
+
+.recipe-details {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.label {
+    font-weight: 700;
+}
+
+.details-box p {
+    font-size: 20px;
+    line-height: 1.8;
+    margin: 35px 0;
+}
+
+.recipe-button {
+    display: inline-block;
+    background-color: #111111;
+    color: white;
+    text-decoration: none;
+    padding: 15px 28px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#wrapper h2 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 54px;
+    text-align: center;
+    margin: 70px 0 45px;
+}
+
+#dessert-gallery {
+    display: flex;
+    gap: 30px;
+}
+
+.dessert-card {
+    flex: 1;
+}
+
+.dessert-card a {
+    color: #111111;
+    text-decoration: none;
+}
+
+.dessert-card img {
+    height: 320px;
+    object-fit: cover;
+}
+
+.dessert-card h4 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    margin-top: 18px;
+}
