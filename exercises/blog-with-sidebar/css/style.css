@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/fairy background.png");
+    background-repeat: repeat;
+    background-size: 500px;
+    background-color: #eef3fa;
+    font-family: Georgia, serif;
+    padding: 40px;
+}
+
+.layout {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.sidebar {
+    width: 220px;
+    background-color: #8ea1ce;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar h2 {
+    color: #334266;
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+
+.sidebar hr {
+    border: none;
+    height: 2px;
+    background-color: #334266;
+    margin-bottom: 20px;
+}
+
+.sidebar h3 {
+    color: #334266;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.sidebar ul {
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+.sidebar li {
+    margin-bottom: 18px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px;
+    border-radius: 8px;
+    transition: background-color .3s;
+}
+
+.sidebar a:hover {
+    background-color: #334266;
+}
+
+.container {
+    width: 900px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.category {
+    color: #c79d45;
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #5b6f9e;
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.author {
+    color: #777;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.banner {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 45px;
+}
+
+.post {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.article-image {
+    width: 350px;
+    margin-right: 35px;
+    border-radius: 15px;
+}
+
+.text {
+    flex: 1;
+}
+
+h2 {
+    color: #5b6f9e;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #444;
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 15px;
+}
