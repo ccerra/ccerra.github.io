@@ -1,0 +1,186 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#license {
+    width: 600px;
+    margin: 60px auto;
+}
+
+#content {
+    background: linear-gradient(to bottom, #efbf83, #eda565);
+    border: 3px solid #7b5b33;
+    border-radius: 18px;
+    box-shadow: 10px 10px 18px rgba(0, 0, 0, .35);
+    padding: 20px;
+    font-size: 0;
+}
+
+#left-side {
+    display: inline-block;
+    width: 65%;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+#right-side {
+    display: inline-block;
+    width: 34%;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+h1 {
+    color: #17389f;
+    font-family: "Gelasio", serif;
+    font-size: 54px;
+    line-height: .9;
+    margin-bottom: 6px;
+}
+
+h4 {
+    background: #153b98;
+    color: white;
+    font-size: 20px;
+    padding: 6px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+#id-and-expiration {
+    margin-bottom: 12px;
+}
+
+#id-and-expiration div {
+    display: inline-block;
+    width: 49%;
+    font-size: 14px;
+}
+
+#id-and-expiration span {
+    color: red;
+    font-weight: bold;
+}
+
+#address {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.25;
+    margin-bottom: 12px;
+}
+
+#personal-info {
+    margin-top: 12px;
+    white-space: nowrap;
+}
+
+#small-pic-container,
+#data-fields {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#small-pic-container {
+    display: inline-block;
+    width: 80px;
+    vertical-align: top;
+}
+
+#small-pic-container img {
+    width: 100%;
+    border: 2px solid #d7b394;
+    opacity: .55;
+}
+
+#data-fields {
+    display: inline-block;
+    width: calc(100% - 95px);
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+#data-left,
+#data-right {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+    font-size: 14px;
+    color: black;
+}
+
+#data-left div,
+#data-right div {
+    margin-bottom: 4px;
+    white-space: nowrap;
+}
+
+#data-left span,
+#data-right span {
+    color: red;
+    font-weight: bold;
+}
+
+#signature {
+    width: 100%;
+    margin-top: 10px;
+    color: black;
+    font-family: "Dancing Script", cursive;
+    font-size: 24px;
+    text-align: center;
+}
+
+#right-side img {
+    width: 190px;
+    display: block;
+    margin: 0 auto;
+    background: white;
+    border: 2px solid #d7b394;
+}
+
+#donor-and-real-id {
+    text-align: center;
+    margin-top: 8px;
+    white-space: nowrap;
+}
+
+#donor,
+#real-id {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#donor {
+    display: inline-block;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+#real-id {
+    width: 34px;
+    height: 34px;
+    background: gold;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    line-height: 34px;
+    text-align: center;
+}
