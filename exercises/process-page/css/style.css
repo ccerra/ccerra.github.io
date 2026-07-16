@@ -1,90 +1,212 @@
 * {
-    box-sizing: border-box;
-}
-body {
-    margin: 0px;
-    font-family: sans-serif;
-}
-* {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
-    background-color: #f8faff;
-    color: #333333;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
-}
-nav img {
-    display: block;
-    height: 60px;
-    width: auto;
-}
-nav {
-    background-color: #4f5d8c;
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    padding: 20px;
-}
-
-nav a {
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: #ffd684;
-}
-
-#hero {
-    align-items: center;
-    background-image: url("../images/hero.jpg");
-    background-position: center;
-    background-size: cover;
-    color: white;
-    display: flex;
-    height: 600px;
-    justify-content: center;
-    text-align: center;
-}
-
-#hero h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
-}
-
-#hero p {
-    font-size: 22px;
-}
-
-.single-column {
-    margin: 50px auto;
-    max-width: 900px;
-    padding: 20px;
-    width: 90%;
-}
-
-section {
-    margin-bottom: 60px;
-}
-
-h2 {
-    color: #4f5d8c;
-    margin-bottom: 20px;
-}
-
-p {
-    margin-bottom: 20px;
+    background-color: #faf7f2;
+    color: #49362f;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.8;
 }
 
 img {
-    border-radius: 8px;
     display: block;
-    margin: 20px auto;
-    max-width: 100%;
+    width: 100%;
+}
+
+nav {
+    align-items: center;
+    background-color: #6f2430;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+nav h2 {
+    color: #fdf8ef;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+nav ul {
+    display: flex;
+    gap: 35px;
+    list-style: none;
+}
+
+nav a {
+    color: #fdf8ef;
+    font-size: .95rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: color .3s ease;
+}
+
+nav a:hover {
+    color: #d9b15a;
+}
+
+.hero {
+    margin-bottom: 100px;
+}
+
+.hero img {
+    height: 85vh;
+    object-fit: cover;
+    width: 100%;
+}
+
+.hero-content {
+    margin: 60px auto;
+    max-width: 900px;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.hero-content h1 {
+    color: #6f2430;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 4.5rem;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    color: #d9b15a;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+#problem,
+#research,
+#ideation,
+#iteration,
+#principles,
+#flat-work,
+#mockups {
+    margin: 0 auto 120px;
+    max-width: 900px;
+    padding: 0 30px;
+}
+
+section h2 {
+    border-bottom: 2px solid #d9b15a;
+    color: #6f2430;
+    display: inline-block;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 2.8rem;
+    margin-bottom: 25px;
+    padding-bottom: 8px;
+}
+
+section p {
+    color: #5c4b45;
+    font-size: 1rem;
+    margin-bottom: 30px;
+    max-width: 700px;
+}
+
+section ul {
+    margin-left: 20px;
+}
+
+section li {
+    color: #5c4b45;
+    margin-bottom: 10px;
+}
+
+section img {
+    border-radius: 8px;
+    margin-top: 25px;
+    transition: transform .3s ease;
+}
+
+section img:hover {
+    transform: scale(1.02);
+}
+
+#problem,
+#research,
+#iteration,
+#mockups {
+    text-align: left;
+}
+
+#solution,
+#ideation,
+#principles,
+#flat-work {
+    text-align: right;
+}
+
+#solution p,
+#ideation p,
+#principles ul {
+    margin-left: auto;
+}
+
+#flat-work img,
+#mockups img {
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    nav ul {
+        gap: 20px;
+    }
+
+    .hero img {
+        height: 45vh;
+    }
+
+    .hero-content {
+        margin: 40px auto;
+        padding: 0 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 2.8rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    #problem,
+    #solution,
+    #research,
+    #ideation,
+    #iteration,
+    #principles,
+    #flat-work,
+    #mockups {
+        margin-bottom: 80px;
+        padding: 0 20px;
+        text-align: left !important;
+    }
+
+    #solution p,
+    #ideation p,
+    #principles ul {
+        margin-left: 0;
+    }
 }
